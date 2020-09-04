@@ -1,0 +1,65 @@
+.list{
+    top: 100px;
+    color: #ffffff;
+    width: 300px;
+    height: 45px;
+    background-color: rgb(197, 133, 144);
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+
+.list:active{
+    position:relative;
+    top:0px;
+}
+
+.list div{
+    padding: 10px;
+    position: relative; 
+    user-select: none;
+}
+
+#trash{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    cursor: pointer;
+}
+#check{
+    color: rgb(166, 230, 40);
+    position: absolute;
+    right: 35px;
+    top: 14px;
+    cursor: pointer;
+    visibility: visible;
+    
+}
+#cancel{
+    position: absolute;
+    right: 35px;
+    top: 14px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.list div input{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    font-size: 18px;
+    
+}
+.textLine{
+    text-decoration: line-through white;
+    pointer-events: none;
+}
+
+#bookmark{
+    color: rgb(223, 219, 0);
+    opacity: 100%;
+}
+
+#dene{
+    color: rgb(223, 219, 0);
+    opacity: 100%;
+}

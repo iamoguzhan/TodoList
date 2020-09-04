@@ -1,0 +1,63 @@
+body {
+  background-color: #cc99bb;
+}
+.App{
+  background-color: #8c5592;
+  min-height: 530px;
+  width: 400px;
+  margin: 80px auto;
+  box-shadow: 5px 5px 5px rgb(58, 58, 58);
+  border-radius: 30px;
+  user-select: none;
+}
+
+.to-do-form input{
+  background-color: #5ead82;
+  border: 0;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 22px;
+  box-shadow: inset 0 0 4px #000000;
+  font-size: 14px;
+  
+}
+
+.to-do-form input::placeholder{
+  color: #a8f5b9d8;
+}
+.to-do-form input[type=text]{
+  color: #ffffffd8;
+}
+.to-do-form input:focus, .to-do-form button:focus{
+  outline: none;
+}
+.to-do-form button{
+  height: 50px;
+  width: 80px;
+  font-size: 22px;
+  border-radius: 40px;
+  color: #ddffe5ee;
+  background-color: rgb(48, 154, 158);
+  box-shadow: 3px 3px 3px rgb(31, 31, 31);
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.to-do-form button:hover {
+	background:linear-gradient(to bottom, #bb56a2 10%, #5397be 80%);
+	background-color:#287eb8;
+}
+.to-do-form button:active {
+	position:relative;
+  top:3px;
+  
+}
+
+.listScroll{
+  height: 400px;
+}
