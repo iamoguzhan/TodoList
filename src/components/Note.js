@@ -28,16 +28,7 @@ function Note(props) {
 
         setText("");
         close();
-
-        
-
-
     }
-
-    /*  const deneme = () => {
-         props.closeNote;
-     } */
-
 
     function handleText(e) {
         setText(e.target.value);
