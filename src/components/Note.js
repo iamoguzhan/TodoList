@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import firebase from '../firebase.js';
+import firebase from '../firebase';
 import './Note.css';
 
 function Note(props) {
