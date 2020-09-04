@@ -19,7 +19,6 @@ function Note(props) {
         
     }, []);
 
-
     function save() {
         const todoReff = firebase.database().ref('Todos').child(task_id)
         todoReff.update({
